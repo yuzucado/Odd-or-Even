@@ -1,0 +1,10 @@
+number = int(input("Please enter a number here "))
+user = number % 4
+if user == 0:
+    print("Can be divided by 4!")
+elif user == 1:
+    print("It's an odd number.")
+elif user == 3:
+    print("It's an odd number.")
+else:
+    print("It's an even number.")
